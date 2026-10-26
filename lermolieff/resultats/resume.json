@@ -1,0 +1,35 @@
+{
+ "icai788": {
+  "c-radio": {
+   "hier_f1": 0.5479,
+   "exact_f1": 0.2748,
+   "codes_per_image": 4.98
+  },
+  "pe-spatial": {
+   "hier_f1": 0.4674,
+   "exact_f1": 0.2025,
+   "codes_per_image": 6.33
+  },
+  "qwen35-4b-sft (van Strien)": {
+   "hier_f1": 0.4481,
+   "exact_f1": 0.2256,
+   "codes_per_image": 3.43
+  },
+  "qwen35-9b-sft (van Strien)": {
+   "hier_f1": 0.4831,
+   "exact_f1": 0.2624,
+   "codes_per_image": 3.44
+  },
+  "latency_s_batch1_t4": {
+   "c-radio": 0.058,
+   "pe-spatial": 0.074
+  }
+ },
+ "pe_minus_c-radio": {
+  "icai788": [
+   -0.0805,
+   -0.09150333677678812,
+   -0.06931069633664852
+  ]
+ }
+}

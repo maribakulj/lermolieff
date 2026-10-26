@@ -1,0 +1,24 @@
+[project]
+name = "lermolieff"
+version = "0.1.0"
+description = "Iconclass codes for images from a frozen image encoder and a small trained head"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["numpy", "torch", "pillow", "huggingface_hub"]
+
+[project.optional-dependencies]
+c-radio = ["transformers", "timm", "einops", "open-clip-torch"]
+pe-spatial = ["timm", "torchvision", "safetensors"]
+train = ["pyarrow"]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["lermolieff"]
+
+[tool.setuptools.package-data]
+lermolieff = ["resultats/*.json"]

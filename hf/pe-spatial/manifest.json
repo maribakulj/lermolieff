@@ -1,0 +1,26 @@
+{
+ "repo": "Ma-Ri-Ba-Ku/lermolieff-iconclass-pe-spatial",
+ "code": "https://github.com/maribakulj/lermolieff",
+ "code_version": "0.1.0",
+ "file": "head.pt",
+ "sha256": "5b9e65ad7d43b6f555d6451c892949341195e89327600b1ff2a90eb930c78ef3",
+ "bytes": 73344447,
+ "encoder": {
+  "repo": "timm/vit_pe_spatial_large_patch14_448.fb",
+  "revision": "ac6f424680a305470340dac75a0a9b4c47ee030f",
+  "feature_config": "timm/vit_pe_spatial_large_patch14_448.fb@ac6f424680a305470340dac75a0a9b4c47ee030f|square-grey128|448|bicubic|autocast-fp16|meanpatch|l2",
+  "dimensions": 1024
+ },
+ "head": {
+  "hidden": 2048,
+  "vocabulary": 7907,
+  "threshold": 0.55,
+  "epoch": 14
+ },
+ "training_data": {
+  "repo": "davanstrien/iconclass-vlm-brillfull",
+  "revision": "8045366ff092a06e8e1c4e47f1eb43cb2a54d732",
+  "licence": "CC0-1.0"
+ },
+ "results": "resultats/ in the code repository, recomputed by python -m lermolieff.rescore"
+}

@@ -1,0 +1,7 @@
+The C-RADIO variant of the head is used with the image encoder nvidia/C-RADIOv3-L, which is not included here and is downloaded
+from Hugging Face by the user.
+C-RADIOv3-L: Licensed by NVIDIA Corporation under the NVIDIA Open Model License (copy in LICENSE-NVIDIA-OPEN-MODEL.txt).
+
+The PE-Spatial variant uses timm/vit_pe_spatial_large_patch14_448.fb (Meta, Apache License 2.0), not included here either.
+
+Training data: davanstrien/iconclass-vlm-brillfull (CC0 1.0), revision 8045366ff092a06e8e1c4e47f1eb43cb2a54d732.

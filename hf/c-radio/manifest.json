@@ -1,0 +1,26 @@
+{
+ "repo": "Ma-Ri-Ba-Ku/lermolieff-iconclass-c-radio",
+ "code": "https://github.com/maribakulj/lermolieff",
+ "code_version": "0.1.0",
+ "file": "head.pt",
+ "sha256": "2b403a912383853d52ed771ef5843a42a80160e39b180ccf98e8bf3b1fc98242",
+ "bytes": 98510271,
+ "encoder": {
+  "repo": "nvidia/C-RADIOv3-L",
+  "revision": "9d0413465e8a91e67bbf2c1ad342815478d1b906",
+  "feature_config": "nvidia/C-RADIOv3-L@9d0413465e8a91e67bbf2c1ad342815478d1b906|square-grey128|448|bicubic|autocast-fp16|summary+meanspatial|l2-each-then-l2",
+  "dimensions": 4096
+ },
+ "head": {
+  "hidden": 2048,
+  "vocabulary": 7907,
+  "threshold": 0.6,
+  "epoch": 14
+ },
+ "training_data": {
+  "repo": "davanstrien/iconclass-vlm-brillfull",
+  "revision": "8045366ff092a06e8e1c4e47f1eb43cb2a54d732",
+  "licence": "CC0-1.0"
+ },
+ "results": "resultats/ in the code repository, recomputed by python -m lermolieff.rescore"
+}

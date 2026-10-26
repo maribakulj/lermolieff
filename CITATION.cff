@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software or its weights, please cite it as below."
+title: "lermolieff: Iconclass codes from a frozen image encoder and a small head"
+authors:
+  - name: "maribakulj"
+version: 0.1.0
+date-released: 2026-10-25
+license: MIT
+repository-code: "https://github.com/maribakulj/lermolieff"
